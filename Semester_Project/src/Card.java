@@ -1,5 +1,5 @@
 
-public abstract class Card {
+public class Card {
 	private int number;
 	private String pic;
 	
@@ -9,4 +9,12 @@ public abstract class Card {
 	}
 	 
 	 public void setSuit() {};
+	 
+	 public int getCardNum() {
+		 return number;
+	 }
+	 
+	 public String getPic() {
+		 return pic;
+	 }
 }
