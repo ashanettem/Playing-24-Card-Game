@@ -123,10 +123,18 @@ public class Driver extends Application {
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		
-		
+	/*	final long start = System.nanoTime(); // code to record time
+		for (int i = 0; i < length; i++) {
+			  // Enter code here
+			}
+			final long finish = System.nanoTime();
+
+			System.out.println("Total time to solve the problem: " + (finish - start));
+	*/
 	}
 	
 	
+		
 	public static void main(String [] a) {
 		launch(a);
 	}
