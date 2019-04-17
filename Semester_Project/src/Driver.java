@@ -130,9 +130,10 @@ public class Driver extends Application {
 			final long finish = System.nanoTime();
 
 			System.out.println("Total time to solve the problem: " + (finish - start));
+	*/
 	}
 	
-	*/
+	
 		
 	public static void main(String [] a) {
 		launch(a);
